@@ -1,0 +1,123 @@
+/*header*/
+.ser{margin-top:.5%;}
+
+.navbar-header{width:100%; }
+.navbar-brand{margin-left:0% !important;}
+.nav-links{width:100%; }
+.nav-r{float:right !important;margin-right:10px;}
+
+.header{
+clear:both;
+margin-top:8%;
+margin-bottom:5%;
+
+}
+.btn{width:50px;height:31px;margin-left:-3%;margin-top:-4px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;}
+select {
+	width:200px;
+	height:30px;
+    padding:3px;
+    margin-left: -8%;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+   -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+input[type="text"]{margin-right:0px; height:30px;}
+.bskt img{padding: 0;}
+
+/*dropdown */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {float: left;}
+li a, .dropbtn {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.dropdown-content {
+   display:none;
+   background-color: #f9f9f9;
+   width: 500%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}.sign-content {
+   display:none;
+   background-color: #f9f9f9;
+   width: 275%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}.d-c4 form{
+	padding:5%;}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content   {
+   display:block;
+   position:absolute;}
+.dropdown:hover   .sign-content {
+   display:block;
+   position:absolute;
+}
+/*shirt previews*/
+.shirt img{width:100%;}
+.shirt-prev{margin-bottom:5%;margin-top:1%;}
+.shirt-prev h3 a:hover{text-decoration:none;}
+.t-justfy{
+text-align: justify;
+text-justify: inter-word;
+}
+
+.info{width:100%; clear:both; border-bottom:rgba(51,51,51,.4) 2px solid; margin-bottom:3%;}
+.trend{margin-bottom:5%;}
+.trend h4 a:hover{text-decoration:none;}
+
+.capt{
+text-align:center;
+}
+/*footer*/
+.footer{text-align:center; padding: 5%;background-color:white;clear:both;}
+.footer  .col-lg-3 li{display:block;}
+
+.c-right{text-align:center;background-color:white;}
+
+
+/* Flashing hover on images */
+.shirt:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+	transition:0.5s ease;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
