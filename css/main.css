@@ -77,7 +77,7 @@ li a, .dropbtn {
 /*shirt previews*/
 .shirt img{width:100%;}
 .shirt-prev{margin-bottom:5%;margin-top:1%;}
-.shirt-prev h3 a{float:right;}
+.shirt-prev h3 a{float:right; transition: ease 1s;}
 .shirt-prev h3 a:hover{text-decoration:none;}
 .t-justfy{
 text-align: justify;
