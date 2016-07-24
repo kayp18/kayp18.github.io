@@ -1,9 +1,13 @@
 @media only screen and (max-width: 400px) { 
-.logo {margin-left:-1.5%;}
-.ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
-input[type=text]{width:100%;}
-.sel{margin-left:22%;}
+.n-tog{margin-top:2% !important; position:relative !important;margin-left:0%; padding: 0; float:left !important;}
+
+
+.logo{width: 100%; text-align:center;}
+.ser{margin-top:.5%!important;width:100%;position:relative;}
+.ser input[type=text]{width:80%;}
+.sel{display:none;}
 .header{margin-top:130px;}
+
 /*nav*/
 .navbar-header {float: none;}
     .navbar-left,.navbar-right {
@@ -44,7 +48,8 @@ input[type=text]{width:100%;}
 }
 
 @media only screen and (max-width: 768px) { 
-
+.logo{width: 100%; text-align:center;}
+.n-tog{margin-top:0% !important; position:relative !important;margin-left:0%; padding: 0;right:0;}
 .ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
 input[type=text]{width:100%;}
 .sel{margin-left:0%; background-color:rgba(1, 1, 1, .1);}
@@ -54,6 +59,7 @@ input[type=text]{width:100%;}
 }
 
 @media only screen and (max-width: 890px) { 
+.logo{width: 100%; text-align:center;}
 
 .ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
 input[type=text]{width:100%;}

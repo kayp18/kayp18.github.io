@@ -1,26 +1,33 @@
 /*header*/
-.ser{margin-top:.5%;margin-left:26% !important;width:90%;position:relative;}
-
 .navbar-header{width:100%; }
 .navbar-brand{margin-left:0% !important;}
 .nav-r{float:right !important;}
-
+.logo{; width:20%;}
 .header{
 clear:both;
 margin-top:1%;
 margin-bottom:5%;
 
 }
-.btn{width:50px;height:31px;margin-left:-3%;margin-top:-4px;
--webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;}
+.ser{margin-top:.5%;margin-left:26% !important;width:80%;position:relative;}
+
+
+.ser-wrap{ }
+.btn{width:50px;height:32px;
+-webkit-border-radius: 30;
+-moz-border-radius: 30;
+border-radius: 30;
+position:relative;
+margin-left:-3%;
+margin-top:-4px;
+}
+.b-tog{height:31px;}
 select {
-	clear:both;
+	
 	width:200px;
 	height:30px;
     padding:3px;
-    margin-left: -8%;
+		
     background: #f8f8f8;
     color:#888;
     border:none;
