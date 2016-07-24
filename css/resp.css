@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 400px) {
 .logo {margin-left:-1.5%;}
 .ser{margin-left:-.5%;}
 .sel{margin-left:22%;}
@@ -34,7 +34,8 @@
 .nav{position:relative;}
 /*shirt previews*/
 .shirt-prev h1{font-size:30px;text-align:center;}
-.shirt-prev h3 a{font-size:20px;}
+.shirt-prev h3 a{font-size:20px; float:left;}
+
 .shirt-prev img{width:100%;}
 /*Trend*/
 .trend h1{text-align:center;font-size:30px;}
@@ -42,7 +43,7 @@
 
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
 
 .ser{margin-left:.5%;}
 .sel{margin-left:0%; background-color:rgba(1, 1, 1, .1);}
@@ -51,7 +52,7 @@
 
 }
 
-@media only screen and (max-width: 890px) { 
+@media only screen and (max-width: 890px) {
 
 .ser{margin-left:.5%;}
 .sel{margin-left:.5%; background-color:rgba(1, 1, 1, .1);}
@@ -70,4 +71,4 @@
 .sel{margin-left:.5%; background-color:rgba(1, 1, 1, .1);}
 .btn{margin-left:-1%;}
 .header{margin-top:130px;}
-} 
+}
