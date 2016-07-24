@@ -1,14 +1,13 @@
 /*header*/
-.ser{margin-top:.5%;}
+.ser{margin-top:.5%;margin-left:26% !important;width:90%;position:relative;}
 
 .navbar-header{width:100%; }
 .navbar-brand{margin-left:0% !important;}
-.nav-links{width:100%; }
-.nav-r{float:right !important;margin-right:10px;}
+.nav-r{float:right !important;}
 
 .header{
 clear:both;
-margin-top:8%;
+margin-top:1%;
 margin-bottom:5%;
 
 }
@@ -17,6 +16,7 @@ margin-bottom:5%;
 -moz-border-radius: 30px;
 border-radius: 30px;}
 select {
+	clear:both;
 	width:200px;
 	height:30px;
     padding:3px;
@@ -38,7 +38,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    
 }
 li {float: left;}
 li a, .dropbtn {
@@ -77,8 +77,8 @@ li a, .dropbtn {
 /*shirt previews*/
 .shirt img{width:100%;}
 .shirt-prev{margin-bottom:5%;margin-top:1%;}
-.shirt-prev h3 a{float:right; transition: ease 1s;}
 .shirt-prev h3 a:hover{text-decoration:none;}
+.shirt-prev h3 a{float:right; transition: ease 1s;}
 .t-justfy{
 text-align: justify;
 text-justify: inter-word;
@@ -121,3 +121,4 @@ text-align:center;
 		opacity: 1;
 	}
 }
+

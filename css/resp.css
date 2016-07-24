@@ -1,6 +1,7 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) { 
 .logo {margin-left:-1.5%;}
-.ser{margin-left:-.5%;}
+.ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
+input[type=text]{width:100%;}
 .sel{margin-left:22%;}
 .header{margin-top:130px;}
 /*nav*/
@@ -34,8 +35,7 @@
 .nav{position:relative;}
 /*shirt previews*/
 .shirt-prev h1{font-size:30px;text-align:center;}
-.shirt-prev h3 a{font-size:20px; float:left;}
-
+.shirt-prev h3 a{font-size:20px;}
 .shirt-prev img{width:100%;}
 /*Trend*/
 .trend h1{text-align:center;font-size:30px;}
@@ -43,52 +43,28 @@
 
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar-header {float: none;}
-      .navbar-left,.navbar-right {
-          float: none !important;}
-      .navbar-toggle {
-          display: block;}
-      .navbar-collapse {
-          border-top: 1px solid transparent;
-          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
-      .navbar-fixed-top {
-  		top: 0;
-  		border-width: 0 0 1px;
-  	}
-      .navbar-collapse.collapse {
-          display: none!important;
-  		background-color:  rgb(245, 245, 240);}
-      .navbar-nav {
-          float: none!important;
-  		margin-top: 7.5px;}
-  	.navbar-nav>li {
-          float: none;}
-      .navbar-nav>li>a {
-          padding-top: 10px;
-          padding-bottom: 10px;}
-      .collapse.in{
-    		display:block !important;
-  		height:700px;}
+@media only screen and (max-width: 768px) { 
 
-.ser{margin-left:.5%;}
+.ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
+input[type=text]{width:100%;}
 .sel{margin-left:0%; background-color:rgba(1, 1, 1, .1);}
 .btn{margin-left:.5%;}
 .header{margin-top:130px;}
 
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 890px) { 
 
-.ser{margin-left:.5%;}
-.sel{margin-left:.5%; background-color:rgba(1, 1, 1, .1);}
-.btn{margin-left:-1%;}
+.ser{margin-top:.5%;margin-left:1% !important;width:100%;position:relative;}
+input[type=text]{width:100%;}
+.sel{margin-left:0; background-color:rgba(1, 1, 1, .1);}
+.btn{margin-left:0% !important;}
 .header{margin-top:130px;}
 
 }
 @media only screen and (max-width: 1100px) {
 .ser{margin-left:.5%;}
-.sel{margin-left:.5%; background-color:rgba(1, 1, 1, .1);}
+.sel{margin-left:0; background-color:rgba(1, 1, 1, .1);}
 .btn{margin-left:-1%;}
 .header{margin-top:130px;}
 }
@@ -97,4 +73,4 @@
 .sel{margin-left:.5%; background-color:rgba(1, 1, 1, .1);}
 .btn{margin-left:-1%;}
 .header{margin-top:130px;}
-}
+} 
